@@ -13,7 +13,7 @@ class Mahasiswa(Manusia):
     def __str__(self):
         s = self.nama+' NIM '+str(self.NIM)\
             + ' Tinggal di : '+self.kotaTinggal\
-            + ' Uang saku Rp. '+self.uangSaku\
+            + ' Uang saku Rp. '+str(self.uangSaku)\
             + 'tiap bulanya'
         return s
     def ambilNama(self):
@@ -28,3 +28,5 @@ class Mahasiswa(Manusia):
         """
         print('saya baru saja makan ',s,'sambil belajar')
         self.keadaan='kenyang'
+
+
