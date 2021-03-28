@@ -1,3 +1,5 @@
+## Nama : Alfian Nur Fathoni
+## NIM. : L2001900002
 B = [[0 for x in range(3)] for y in range(3)]
 print(B)
 

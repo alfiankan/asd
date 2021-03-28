@@ -1,3 +1,5 @@
+## Nama : Alfian Nur Fathoni
+## NIM. : L2001900002
 class Node(object):
     """
     membuat node
@@ -36,3 +38,8 @@ def tambahDepan(head,data):
 a = tambahDepan(a,54)
 print(a.next.data)
 
+## menyisipkan node
+
+## cari
+
+## hapus
